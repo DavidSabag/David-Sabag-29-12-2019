@@ -2,8 +2,16 @@
     background-color: #404F56;
     box-shadow: 10px 10px 10px gray; 
     padding: 20px 0px 20px 0px;
+    display: flex;
 }
 h1{
     margin: 0;
     color: white;
+    width: 90%;
+}
+.btn-container {
+    position: relative;
+    float: right ;
+    margin-top: 8px;
+    
 }
