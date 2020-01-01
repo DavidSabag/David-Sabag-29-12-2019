@@ -1,10 +1,12 @@
 import React from 'react';
-import './Header.css';
+import { giveBackCake } from '../redux'
+import { connect } from 'react-redux';
+import './styles/Header.css';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 
-const Header = () => {
+const Header = (props) => {
     return (
         <>
             <div className="header">
@@ -12,7 +14,7 @@ const Header = () => {
                 <div className="btn-container">
                     <ButtonToolbar >
                         <ToggleButtonGroup type="radio" name="options" defaultValue={1}>
-                            <ToggleButton value={1}>Home</ToggleButton>
+                            <ToggleButton onClick={props.giveBackCake} value={1}>Home</ToggleButton>
                             <ToggleButton value={2}>Favorites</ToggleButton>
 
                         </ToggleButtonGroup>
@@ -24,25 +26,25 @@ const Header = () => {
     )
 }
 
+const mapStateToProps = (state) => {
+    return {
+        numOfCakes: state.numOfCakes
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        giveBackCake: () => dispatch(giveBackCake())
+    }
+}
 
 
-// class Header extends React.Component {
-//     render() {
-//         return (
-//             <div className="header">
-//                 <h1 className="herolo-weather-task">Herolo Weather Task</h1>
-//                 <div className="btn-container">
-//                     <ButtonToolbar >
-//                         <ToggleButtonGroup type="radio" name="options" defaultValue={1}>
-//                             <ToggleButton value={1}>Home</ToggleButton>
-//                             <ToggleButton value={2}>Favorites</ToggleButton>
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Header)
 
-//                         </ToggleButtonGroup>
-//                     </ButtonToolbar>
-//                 </div>
-//             </div>
-//         );
-//     }
-// }
 
-export default Header;
+
+
+//export default Header;

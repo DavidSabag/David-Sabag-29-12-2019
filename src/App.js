@@ -1,15 +1,22 @@
 import React from 'react';
-import Header from './components/Header';
+import { Provider } from 'react-redux';
+import store from './redux/store'
+import  Header from './components/Header';
 import Search from './components/Search';
+import CakeContainer from './components/CakeContainer';
 
 
-const App = () =>{
-    return(
+
+const App = () => {
+    return (
         <>
-            <Header />
-            <Search />
+            <Provider store={store}>
 
-
+                <Header />
+                <Search />
+                <CakeContainer />
+                
+            </Provider>
 
         </>
     );

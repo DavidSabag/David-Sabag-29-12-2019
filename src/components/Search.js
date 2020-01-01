@@ -1,11 +1,12 @@
 import React from 'react';
-import './Search.css';
+import './styles/Search.css';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import FormControl from 'react-bootstrap/FormControl';
 import mGlass from '../assets/mGlass.png'
 import api from '../modules/api.js'
-import seggRes from '../assets/autocomplete.json'
+import Autocomplete from './Autocomplete';
+//import seggRes from '../assets/autocomplete.json'
 
 class Search extends React.Component {
     constructor() {
@@ -14,13 +15,17 @@ class Search extends React.Component {
             suggestions: [],
             chosenValue: ""
         }
+        this.chosenValue = this.chosenValue.bind(this);
     }
 
+    chosenValue = (value) => {
+        this.setState({ chosenValue: value })
+    }
 
     onSearchChange = (event) => {
         const reg = new RegExp('[A-Za-z]')
         const searchValue = event.target.value;
-        this.setState({chosenValue: searchValue})
+        this.setState({ chosenValue: searchValue })
 
         if (reg.test(searchValue)) {
             fetch(`${api.autocomplete}${searchValue}`)
@@ -33,8 +38,6 @@ class Search extends React.Component {
             this.setState({ suggestions: [] })
         }
         //this.setState({ suggestions: seggRes })
-
-
     }
     render() {
         return (
@@ -43,10 +46,7 @@ class Search extends React.Component {
                     <InputGroup className="mb-3">
                         <InputGroup.Prepend >
                             <Button variant="outline-secondary">
-                                <img src={mGlass} alt=""
-                                    height="25"
-                                    width="25"
-                                />
+                                <img src={mGlass} alt="" height="25" width="25" />
                             </Button>
                         </InputGroup.Prepend>
                         <FormControl
@@ -59,19 +59,14 @@ class Search extends React.Component {
                     </InputGroup>
 
                 </div>
-                <div
-                    className={this.state.suggestions.length === 0 ? 'hide' : 'auto-res'}>
-                    {
-                        this.state.suggestions.map(citys => <option
-                            onClick={(event) => this.setState({ chosenValue: event.target.value })}
-                        > {citys.LocalizedName} </option>)
-                    }
-                </div>
+                <Autocomplete 
+                    suggestions={this.state.suggestions} 
+                    handleChosenValue={this.chosenValue} 
+                />
 
             </>
 
         );
     }
 }
-
 export default Search;
