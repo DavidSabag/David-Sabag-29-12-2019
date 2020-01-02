@@ -4,7 +4,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import FormControl from 'react-bootstrap/FormControl';
 import mGlass from '../assets/mGlass.png'
-import api from '../modules/api.js'
+import api from '../services/api.js'
 import Autocomplete from './Autocomplete';
 //import seggRes from '../assets/autocomplete.json'
 

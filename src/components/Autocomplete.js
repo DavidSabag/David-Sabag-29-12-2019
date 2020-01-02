@@ -8,14 +8,15 @@ const Autocomplete = (props) => {
             <div
                 className={props.suggestions.length === 0 ? 'hide' : 'auto-res'}>
                 {
-                    props.suggestions.map(citys => 
-                            <option
-                                onClick={(event) => {
-                                    event.currentTarget.parentNode.className = "hide";
-                                    props.handleChosenValue(event.target.value)
+                    props.suggestions.map((citys, key) =>
+                        <option
+                            key={key}
+                            onClick={(event) => {
+                                event.currentTarget.parentNode.className = "hide";
+                                props.handleChosenValue(event.target.value)
 
-                                }}> {citys.LocalizedName}
-                            </option>)
+                            }}> {citys.LocalizedName}
+                        </option>)
                 }
             </div>
 

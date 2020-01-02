@@ -6,7 +6,7 @@
     opacity: 0.99;
 }
 h1{
-    margin: 0;
+    margin-left: 10px;
     color: white;
     width: 88%;
 }
@@ -15,4 +15,7 @@ h1{
     float: right ;
     margin-top: 8px;
     
+}
+input{
+    display: none;
 }

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import store from './redux/store'
-import  Header from './components/Header';
+import Header from './components/Header';
 import Search from './components/Search';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import CakeContainer from './components/CakeContainer';
 
 
@@ -10,13 +11,20 @@ import CakeContainer from './components/CakeContainer';
 const App = () => {
     return (
         <>
-            <Provider store={store}>
+            <Router >
+                <Provider store={store}>
+                    <Header />
 
-                <Header />
-                <Search />
-                <CakeContainer />
-                
-            </Provider>
+                    <Switch>
+                        <Redirect exact from="/" to="/Home" />
+                        <Route exact path="/Home" component={Search} />
+                        <Route path="/Favorites" component={CakeContainer} />
+
+                    </Switch>
+
+
+                </Provider>
+            </Router>
 
         </>
     );
