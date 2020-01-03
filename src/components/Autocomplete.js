@@ -8,9 +8,9 @@ const Autocomplete = (props) => {
             <div
                 className={props.suggestions.length === 0 ? 'hide' : 'auto-res'}>
                 {
-                    props.suggestions.map((citys, key) =>
+                    props.suggestions.map((citys) =>
                         <option
-                            key={key}
+                            key={citys.Key}
                             onClick={(event) => {
                                 event.currentTarget.parentNode.className = "hide";
                                 props.handleChosenValue(event.target.value)

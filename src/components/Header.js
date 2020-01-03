@@ -21,14 +21,14 @@ const Header = (props) => {
                                 onClick={props.giveBackCake}>
                                 <ToggleButton
                                     value={1}>Home
-                                    </ToggleButton>
+                                </ToggleButton>
                             </Link>
                             <Link
                                 to={'/Favorites'}
                                 onClick={props.giveBackCake}>
                                 <ToggleButton
                                     value={2}>Favorites
-                                    </ToggleButton>
+                                </ToggleButton>
                             </Link>
                         </ToggleButtonGroup>
                     </ButtonToolbar>
