@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/David-Sabag-29-12-2019-build/static/css/main.bca2c4bb.chunk.css",
-    "main.js": "/David-Sabag-29-12-2019-build/static/js/main.1a417440.chunk.js",
-    "main.js.map": "/David-Sabag-29-12-2019-build/static/js/main.1a417440.chunk.js.map",
-    "runtime-main.js": "/David-Sabag-29-12-2019-build/static/js/runtime-main.989e2a54.js",
-    "runtime-main.js.map": "/David-Sabag-29-12-2019-build/static/js/runtime-main.989e2a54.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/David-Sabag-29-12-2019-build/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.01e3cdaa.chunk.js": "/David-Sabag-29-12-2019-build/static/js/2.01e3cdaa.chunk.js",
-    "static/js/2.01e3cdaa.chunk.js.map": "/David-Sabag-29-12-2019-build/static/js/2.01e3cdaa.chunk.js.map",
-    "index.html": "/David-Sabag-29-12-2019-build/index.html",
-    "precache-manifest.6e352ae0e367fe750075c7445462027d.js": "/David-Sabag-29-12-2019-build/precache-manifest.6e352ae0e367fe750075c7445462027d.js",
-    "service-worker.js": "/David-Sabag-29-12-2019-build/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/David-Sabag-29-12-2019-build/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.bca2c4bb.chunk.css.map": "/David-Sabag-29-12-2019-build/static/css/main.bca2c4bb.chunk.css.map",
-    "static/js/2.01e3cdaa.chunk.js.LICENSE": "/David-Sabag-29-12-2019-build/static/js/2.01e3cdaa.chunk.js.LICENSE",
-    "static/media/15.png": "/David-Sabag-29-12-2019-build/static/media/15.39ac499c.png",
-    "static/media/16.png": "/David-Sabag-29-12-2019-build/static/media/16.0cf9cad1.png",
-    "static/media/17.png": "/David-Sabag-29-12-2019-build/static/media/17.3c85da3e.png",
-    "static/media/41.png": "/David-Sabag-29-12-2019-build/static/media/41.421c13f1.png",
-    "static/media/mGlass.png": "/David-Sabag-29-12-2019-build/static/media/mGlass.f4149aa3.png"
+    "main.css": "/David-Sabag-29-12-2019/static/css/main.bca2c4bb.chunk.css",
+    "main.js": "/David-Sabag-29-12-2019/static/js/main.19659a6f.chunk.js",
+    "main.js.map": "/David-Sabag-29-12-2019/static/js/main.19659a6f.chunk.js.map",
+    "runtime-main.js": "/David-Sabag-29-12-2019/static/js/runtime-main.02d82e3a.js",
+    "runtime-main.js.map": "/David-Sabag-29-12-2019/static/js/runtime-main.02d82e3a.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/David-Sabag-29-12-2019/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.ce041c07.chunk.js": "/David-Sabag-29-12-2019/static/js/2.ce041c07.chunk.js",
+    "static/js/2.ce041c07.chunk.js.map": "/David-Sabag-29-12-2019/static/js/2.ce041c07.chunk.js.map",
+    "index.html": "/David-Sabag-29-12-2019/index.html",
+    "precache-manifest.c1d8629137500aac09c530bb90d61c75.js": "/David-Sabag-29-12-2019/precache-manifest.c1d8629137500aac09c530bb90d61c75.js",
+    "service-worker.js": "/David-Sabag-29-12-2019/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/David-Sabag-29-12-2019/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.bca2c4bb.chunk.css.map": "/David-Sabag-29-12-2019/static/css/main.bca2c4bb.chunk.css.map",
+    "static/js/2.ce041c07.chunk.js.LICENSE": "/David-Sabag-29-12-2019/static/js/2.ce041c07.chunk.js.LICENSE",
+    "static/media/15.png": "/David-Sabag-29-12-2019/static/media/15.39ac499c.png",
+    "static/media/16.png": "/David-Sabag-29-12-2019/static/media/16.0cf9cad1.png",
+    "static/media/17.png": "/David-Sabag-29-12-2019/static/media/17.3c85da3e.png",
+    "static/media/41.png": "/David-Sabag-29-12-2019/static/media/41.421c13f1.png",
+    "static/media/mGlass.png": "/David-Sabag-29-12-2019/static/media/mGlass.f4149aa3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.989e2a54.js",
+    "static/js/runtime-main.02d82e3a.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.01e3cdaa.chunk.js",
+    "static/js/2.ce041c07.chunk.js",
     "static/css/main.bca2c4bb.chunk.css",
-    "static/js/main.1a417440.chunk.js"
+    "static/js/main.19659a6f.chunk.js"
   ]
 }
