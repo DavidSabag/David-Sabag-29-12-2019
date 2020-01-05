@@ -1,6 +1,6 @@
-//const apiKey = '78SA3oeY98EUGoxozRq3AOyGyI0cSUHJ'
+const apiKey = '78SA3oeY98EUGoxozRq3AOyGyI0cSUHJ'
 //const apiKey ="brCAsJAVyaTmy8bkCxNGSChAdPVG7RO4"
-const apiKey = "xKh4TPpyd2xr1NjwxsAyGi5OAxFc6Wt0" 
+//const apiKey = "xKh4TPpyd2xr1NjwxsAyGi5OAxFc6Wt0" 
  
 const endPointes = {
     autocomplete: (q) => `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${q}`,
@@ -16,10 +16,3 @@ const endPointes = {
 
 export default endPointes;
 
-// endPointes.getLatLon
-// .then(geoLocationPostion =>{ 
-//     const {latitude,longitude} = geoLocationPostion.coords;
-//     fetch( endPointes.geoPositonSearch(latitude,longitude) )
-//     .then(res => res.json())
-//     .then(json => console.log(json))
-// })

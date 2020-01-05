@@ -1,0 +1,42 @@
+.forcast-container{
+
+    background-color: #404F56;
+    border: 1px #686666 solid;
+    width: 80%;
+    height: 65%;
+    border-radius: 15px;
+    margin: 0;
+    position: fixed;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    
+    
+}
+.forcast-header{
+    width: 73%;
+    height: 45%;
+    left: 13.5%;
+    top: 140%;
+    position: absolute;
+    
+    
+}
+.btn-danger{
+    float: right;
+    position: relative;
+    top: -80%
+}
+#city{
+    width: 40%;
+    display: flex;
+}
+.card-container{
+    display: flex;
+    opacity: 1;
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    top: 415%
+}

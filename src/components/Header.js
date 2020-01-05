@@ -1,6 +1,5 @@
 import React from 'react';
-import { giveBackCake } from '../redux'
-import { connect } from 'react-redux';
+
 import './styles/Header.css';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
@@ -39,23 +38,6 @@ const Header = (props) => {
     )
 }
 
-const mapStateToProps = (state) => {
-    return {
-        numOfCakes: state.cake.numOfCakes
-    }
-}
+export default Header;
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        giveBackCake: () => {
-            dispatch(giveBackCake())
-        }
-    }
-}
-
-
-export default connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(Header)
 

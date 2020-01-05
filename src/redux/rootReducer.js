@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
-import cakeReducer from './cake/cakeReducer';
-//import hederReducer from './Heder/hederReducer';
+//import cakeReducer from './cake/cakeReducer';
+//import forcastsReducer from './forcasts/forcastsReducer';
+import productsReducers from './products/productsReducers';
 
 const rootReducers = combineReducers({
-    cake: cakeReducer,
-    //header: hederReducer
+    //cake: cakeReducer,
+    //forcasts: forcastsReducer,
+    products: productsReducers
 })
 
 export default rootReducers;

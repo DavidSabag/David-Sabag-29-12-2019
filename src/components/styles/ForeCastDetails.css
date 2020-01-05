@@ -1,0 +1,6 @@
+.bg-light{
+    margin: 0 20px 0 20px;
+    position: relative;
+    z-index: 10;
+    opacity: 0.75
+}

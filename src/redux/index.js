@@ -1,3 +1,2 @@
 
-export { buyCake,
-         giveBackCake } from './cake/cakeActions'
+export * from './products/productsActions'
