@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58c907de3f143e319c8b8f493fc8f175",
+    "revision": "cfd1306bfe80b715907c96a770028103",
     "url": "/David-Sabag-29-12-2019/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/David-Sabag-29-12-2019/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "ad379ec73af71110c2a0",
+    "revision": "56c5ff5bebed8f134a23",
     "url": "/David-Sabag-29-12-2019/static/css/main.bca2c4bb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/David-Sabag-29-12-2019/static/js/2.ce041c07.chunk.js.LICENSE"
   },
   {
-    "revision": "ad379ec73af71110c2a0",
-    "url": "/David-Sabag-29-12-2019/static/js/main.19659a6f.chunk.js"
+    "revision": "56c5ff5bebed8f134a23",
+    "url": "/David-Sabag-29-12-2019/static/js/main.52bdbaf7.chunk.js"
   },
   {
     "revision": "150029be99d4dfb4c151",
