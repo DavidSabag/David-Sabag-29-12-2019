@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Search.css';
 import { connect } from 'react-redux';
-import { updateGlobalState, updateGlobalCity } from '../redux'
+import { updateGlobalState, updateGlobalCity, updateKey } from '../redux'
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import FormControl from 'react-bootstrap/FormControl';
@@ -21,6 +21,7 @@ class Search extends React.Component {
         this.input = React.createRef();
     }
 
+
     chosenValue = (value) => {
         this.setState({ chosenValue: value })
     }
@@ -30,6 +31,7 @@ class Search extends React.Component {
         this.props.updateGlobalCity(inputValue)
 
         const city = this.state.suggestions.find(segg => segg.LocalizedName === inputValue)
+        this.props.updateKey(city.Key)
         fetch(endPointes.fiveDaysDailyForecasts(city.Key))
             .then(res => res.json())
             .then(forcasts => this.props.updateGlobalState(forcasts))
@@ -99,7 +101,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         updateGlobalState: (data) => dispatch(updateGlobalState(data)),
-        updateGlobalCity: (city) => dispatch(updateGlobalCity(city))
+        updateGlobalCity: (city) => dispatch(updateGlobalCity(city)),
+        updateKey: (key) => dispatch(updateKey(key))
     }
 }
 export default connect(

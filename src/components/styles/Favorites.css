@@ -1,0 +1,36 @@
+.favorits-container{
+    background-color: #404F56;
+    border: 1px #686666 solid;
+    width: 80%;
+    height: 65%;
+    border-radius: 15px;
+    margin: 0;
+    position: fixed;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    
+}
+.fav{
+    display: flex;
+    width: 80%;
+    height: 25%;
+    border-radius: 15px;
+    margin: 0;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card > * {
+    pointer-events: none;
+
+}
+.card:hover{
+    cursor: pointer;
+}
+
+
+
+

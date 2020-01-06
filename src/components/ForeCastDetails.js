@@ -28,6 +28,7 @@ const ForeCastDetails = (props) => {
                             </Card.Title>
                             <img
                                 src={images(`./${day.Day.Icon}.png`)}
+                                alt=""
                             />
 
                         </Card.Body>

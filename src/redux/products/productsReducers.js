@@ -3,6 +3,7 @@ const initialState = {
     products: [],
     favorites: [],
     city: "",
+    cityKey: "",
     error: null
 }
 
@@ -43,6 +44,12 @@ export const productsReducer = (state = initialState, action) => {
                 ...state,
                 pending: false,
                 favorites: action.favorites
+            }
+        case "UPDATE_CITY_KEY":
+            return {
+                ...state,
+                pending: false,
+                cityKey: action.cityKey
             }
 
         default:

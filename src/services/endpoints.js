@@ -1,6 +1,4 @@
-const apiKey = '78SA3oeY98EUGoxozRq3AOyGyI0cSUHJ'
-//const apiKey ="brCAsJAVyaTmy8bkCxNGSChAdPVG7RO4"
-//const apiKey = "xKh4TPpyd2xr1NjwxsAyGi5OAxFc6Wt0" 
+const apiKey ="VdYSGQ8CMzlgGl7hQ7QADNiKwvkKwNAS"
  
 const endPointes = {
     autocomplete: (q) => `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${q}`,

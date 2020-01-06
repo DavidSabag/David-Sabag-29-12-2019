@@ -20,9 +20,9 @@ const App = () => {
                     <Header />
                    
                         <Switch>
-                            <Redirect exact from="/" to="/Home" />
-                            <Route exact path="/Home" component={Search} />
-                            <Route path="/Favorites" component={Favorites} />
+                            <Redirect exact from="/David-Sabag-29-12-2019/" to="/David-Sabag-29-12-2019/Home" />
+                            <Route path="/David-Sabag-29-12-2019/Home" component={Search} />
+                            <Route path="/David-Sabag-29-12-2019/Favorites" component={Favorites} />
 
                         </Switch>
                         
