@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/David-Sabag-29-12-2019/precache-manifest.3f428ee0a94909608173110d681b4335.js"
+  "/David-Sabag-29-12-2019/precache-manifest.7af601f75309c0501d1db1997a8a785f.js"
 );
 
 self.addEventListener('message', (event) => {
