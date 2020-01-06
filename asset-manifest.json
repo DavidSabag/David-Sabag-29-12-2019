@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/David-Sabag-29-12-2019/static/css/main.60b271d8.chunk.css",
-    "main.js": "/David-Sabag-29-12-2019/static/js/main.079dbff3.chunk.js",
-    "main.js.map": "/David-Sabag-29-12-2019/static/js/main.079dbff3.chunk.js.map",
+    "main.css": "/David-Sabag-29-12-2019/static/css/main.2000a403.chunk.css",
+    "main.js": "/David-Sabag-29-12-2019/static/js/main.db707005.chunk.js",
+    "main.js.map": "/David-Sabag-29-12-2019/static/js/main.db707005.chunk.js.map",
     "runtime-main.js": "/David-Sabag-29-12-2019/static/js/runtime-main.02d82e3a.js",
     "runtime-main.js.map": "/David-Sabag-29-12-2019/static/js/runtime-main.02d82e3a.js.map",
     "static/css/2.17e5ed98.chunk.css": "/David-Sabag-29-12-2019/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.8c1ebedc.chunk.js": "/David-Sabag-29-12-2019/static/js/2.8c1ebedc.chunk.js",
-    "static/js/2.8c1ebedc.chunk.js.map": "/David-Sabag-29-12-2019/static/js/2.8c1ebedc.chunk.js.map",
+    "static/js/2.50d51a16.chunk.js": "/David-Sabag-29-12-2019/static/js/2.50d51a16.chunk.js",
+    "static/js/2.50d51a16.chunk.js.map": "/David-Sabag-29-12-2019/static/js/2.50d51a16.chunk.js.map",
     "index.html": "/David-Sabag-29-12-2019/index.html",
-    "precache-manifest.b8e1b13e50c07cad418c547d2a017902.js": "/David-Sabag-29-12-2019/precache-manifest.b8e1b13e50c07cad418c547d2a017902.js",
+    "precache-manifest.88feffcbc0eebd202856b621eb164c86.js": "/David-Sabag-29-12-2019/precache-manifest.88feffcbc0eebd202856b621eb164c86.js",
     "service-worker.js": "/David-Sabag-29-12-2019/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/David-Sabag-29-12-2019/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.60b271d8.chunk.css.map": "/David-Sabag-29-12-2019/static/css/main.60b271d8.chunk.css.map",
-    "static/js/2.8c1ebedc.chunk.js.LICENSE": "/David-Sabag-29-12-2019/static/js/2.8c1ebedc.chunk.js.LICENSE",
+    "static/css/main.2000a403.chunk.css.map": "/David-Sabag-29-12-2019/static/css/main.2000a403.chunk.css.map",
+    "static/js/2.50d51a16.chunk.js.LICENSE": "/David-Sabag-29-12-2019/static/js/2.50d51a16.chunk.js.LICENSE",
     "static/media/15.png": "/David-Sabag-29-12-2019/static/media/15.39ac499c.png",
     "static/media/16.png": "/David-Sabag-29-12-2019/static/media/16.0cf9cad1.png",
     "static/media/17.png": "/David-Sabag-29-12-2019/static/media/17.3c85da3e.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.02d82e3a.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.8c1ebedc.chunk.js",
-    "static/css/main.60b271d8.chunk.css",
-    "static/js/main.079dbff3.chunk.js"
+    "static/js/2.50d51a16.chunk.js",
+    "static/css/main.2000a403.chunk.css",
+    "static/js/main.db707005.chunk.js"
   ]
 }
