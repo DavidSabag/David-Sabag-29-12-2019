@@ -33,9 +33,7 @@ class CityForcast extends React.Component {
                 if (this.isInFavorites(nextProps.data.products.DailyForecasts)) {
                     this.setState({ btnName: "Add to Favorites" })
                 }
-                else {
-                    this.setState({ btnName: "Remove Favorit" })
-                }
+
             }
         
         
