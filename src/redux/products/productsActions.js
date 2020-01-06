@@ -84,8 +84,9 @@ export const updateGlobalCity = (city) => {
 
 export const removeFavorites = (favoret, favorites) => {
     return (dispatch) => {
+
         const index = favorites.indexOf(favoret)
-        favorites.splice(index)
+        favorites.splice(index,1)
         dispatch(updateFavoriteState(favorites))
     }
 }

@@ -68,7 +68,7 @@ class CityForcast extends React.Component {
 
     render() {
         return (
-            this.props.data.pending ? (<h1>Loading</h1>) : this.props.data.error ? (<h1>{this.props.propsdata.error}</h1>)
+            this.props.data.pending ? (<h1>Loading</h1>) : this.props.data.error ? (<h1>{this.props.data.error}</h1>)
                 : (
                     <>
 
