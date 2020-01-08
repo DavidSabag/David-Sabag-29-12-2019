@@ -1,0 +1,1 @@
+Simple weather app to learn work with redux. wirrten with accuweather API

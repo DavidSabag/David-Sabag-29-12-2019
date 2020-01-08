@@ -16,14 +16,14 @@ const Header = (props) => {
                     <ButtonToolbar >
                         <ToggleButtonGroup type="radio" name="options" defaultValue={1}>
                             <Link
-                                to={'/David-Sabag-29-12-2019/Home'}
+                                to={'/Weather-App/Home'}
                                 >
                                 <ToggleButton
                                     value={1}>Home
                                 </ToggleButton>
                             </Link>
                             <Link
-                                to={'/David-Sabag-29-12-2019/Favorites'}
+                                to={'/Weather-App/Favorites'}
                             >
                                 <ToggleButton
                                     value={2}>Favorites
