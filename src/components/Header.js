@@ -11,7 +11,7 @@ const Header = (props) => {
         <>
 
             <div className="header">
-                <h1 className="herolo-weather-task">Herolo Weather Task</h1>
+                <h1 className="Weather-App">Weather App</h1>
                 <div className="btn-container" >
                     <ButtonToolbar >
                         <ToggleButtonGroup type="radio" name="options" defaultValue={1}>
