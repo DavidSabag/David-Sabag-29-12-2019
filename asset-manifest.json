@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/David-Sabag-29-12-2019/static/css/main.2000a403.chunk.css",
-    "main.js": "/David-Sabag-29-12-2019/static/js/main.db707005.chunk.js",
-    "main.js.map": "/David-Sabag-29-12-2019/static/js/main.db707005.chunk.js.map",
+    "main.js": "/David-Sabag-29-12-2019/static/js/main.cf23f176.chunk.js",
+    "main.js.map": "/David-Sabag-29-12-2019/static/js/main.cf23f176.chunk.js.map",
     "runtime-main.js": "/David-Sabag-29-12-2019/static/js/runtime-main.02d82e3a.js",
     "runtime-main.js.map": "/David-Sabag-29-12-2019/static/js/runtime-main.02d82e3a.js.map",
     "static/css/2.17e5ed98.chunk.css": "/David-Sabag-29-12-2019/static/css/2.17e5ed98.chunk.css",
     "static/js/2.50d51a16.chunk.js": "/David-Sabag-29-12-2019/static/js/2.50d51a16.chunk.js",
     "static/js/2.50d51a16.chunk.js.map": "/David-Sabag-29-12-2019/static/js/2.50d51a16.chunk.js.map",
     "index.html": "/David-Sabag-29-12-2019/index.html",
-    "precache-manifest.88feffcbc0eebd202856b621eb164c86.js": "/David-Sabag-29-12-2019/precache-manifest.88feffcbc0eebd202856b621eb164c86.js",
+    "precache-manifest.d0832e2207c4d1ce26d3bc0c9f179ad1.js": "/David-Sabag-29-12-2019/precache-manifest.d0832e2207c4d1ce26d3bc0c9f179ad1.js",
     "service-worker.js": "/David-Sabag-29-12-2019/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/David-Sabag-29-12-2019/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.2000a403.chunk.css.map": "/David-Sabag-29-12-2019/static/css/main.2000a403.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.50d51a16.chunk.js",
     "static/css/main.2000a403.chunk.css",
-    "static/js/main.db707005.chunk.js"
+    "static/js/main.cf23f176.chunk.js"
   ]
 }
