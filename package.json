@@ -1,6 +1,6 @@
 {
-  "homepage":"http://davidsabag.github.io/David-Sabag-29-12-2019",
-  "name": "David-Sabag-29-12-2019",
+  "homepage":"http://davidsabag.github.io/Weather-App",
+  "name": "Weather-App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
